@@ -1,0 +1,15 @@
+# Core data and ML
+numpy==2.2.6
+pandas==2.3.1
+scikit-learn==1.7.1
+scipy==1.17.1
+xgboost==3.0.4
+
+# Plotting
+matplotlib==3.10.5
+seaborn==0.13.2
+
+# Notebook environment
+jupyterlab==4.4.5
+ipykernel==6.30.1
+ipywidgets==8.1.7
