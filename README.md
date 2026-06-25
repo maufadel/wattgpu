@@ -2,9 +2,7 @@
 
 WattGPU is a framework for predicting the energy and latency characteristics of Large Language Model (LLM) inference on GPUs **without requiring profiling or hardware access**.
 
-The repository contains the code, data processing pipeline, and models presented in the paper:
-
-> **WattGPU: Predicting LLM Inference Power and Latency on Unseen GPUs Without Profiling**
+The repository contains the code, data processing pipeline, and models from the paper **WattGPU: Predicting Inference Power and Latency on Unseen GPUs and LLMs**, presented at the 1st Workshop on Sustainability and Resource-Efficiency of Artificial Intelligence @ IJCAI 2026.
 
 WattGPU predicts:
 
@@ -17,6 +15,8 @@ using only:
 - Public LLM metadata
 
 The models generalize to **unseen GPUs and unseen LLMs**, enabling energy-aware deployment decisions before running experiments.
+
+If you use our work, please cite it.
 
 ---
 
