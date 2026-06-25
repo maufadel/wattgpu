@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below (preferred-citation)."
+title: "WattGPU: Predicting Inference Power and Latency on Unseen GPUs and LLMs"
+abstract: >-
+  WattGPU provides two predictive models for mean GPU power draw and
+  Inter-Token Latency (ITL) of LLM inference workloads, using only publicly
+  available LLM metadata and GPU specifications. This eliminates the need for
+  hardware access or profiling while generalizing to NVIDIA server-grade GPUs
+  and LLMs unseen during training.
+type: software
+authors:
+  - given-names: Mauricio
+    family-names: "Fadel Argerich"   # TODO: confirm name split (given vs. family)
+    affiliation: "Universidad Politécnica de Madrid"
+  - given-names: Jonathan
+    family-names: "Fürst"
+    affiliation: "Zurich University of Applied Sciences"
+  - given-names: Marta
+    family-names: "Patiño-Martínez"
+    affiliation: "Universidad Politécnica de Madrid"
+repository-code: "https://github.com/maufadel/wattgpu"
+url: "https://github.com/maufadel/wattgpu"
+license: Apache 2.0  
+version: "1.0.0"
+date-released: 2026-06-25
+keywords:
+  - "large language models"
+  - "LLM inference"
+  - "energy efficiency"
+  - "GPU power draw"
+  - "inter-token latency"
+  - "performance prediction"
+
+preferred-citation:
+  type: conference-paper
+  title: "WattGPU: Predicting Inference Power and Latency on Unseen GPUs and LLMs"
+  authors:
+    - given-names: Mauricio
+      family-names: "Fadel Argerich"
+      affiliation: "Universidad Politécnica de Madrid"
+    - given-names: Jonathan
+      family-names: "Fürst"
+      affiliation: "Zurich University of Applied Sciences"
+    - given-names: Marta
+      family-names: "Patiño-Martínez"
+      affiliation: "Universidad Politécnica de Madrid"
+  year: 2026
+  # --- CEUR-WS proceedings details: fill remaining TODOs at camera-ready ---
+  collection-title: "Proceedings of the 1st Workshop on Sustainability and Resource-Efficiency of Artificial Intelligence @ IJCAI 2026"
+  collection-type: proceedings
+  publisher:
+    name: "CEUR-WS.org"
+  conference:
+    name: "1st Workshop on Sustainability and Resource-Efficiency of Artificial Intelligence @ IJCAI 2026"
+  issn: "1613-0073"
+  # series: "CEUR Workshop Proceedings"
+  # volume: 0000         # TODO: CEUR volume number (Vol-XXXX)
+  # start: 1             # TODO: first page
+  # end: 10              # TODO: last page
+  # editors:             # TODO: add proceedings editors
+  #   - given-names: ""
+  #     family-names: ""
+  # url: "https://ceur-ws.org/Vol-XXXX/paper-N.pdf"   # TODO: CEUR paper URL once assigned
